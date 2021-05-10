@@ -1,0 +1,249 @@
+{
+  "clips": [
+    {
+      "name": "Blockquotes",
+      "children": [
+        {
+          "content": "> ${1:Text}",
+          "name": "Single line blockquote",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "blocquot"
+        },
+        {
+          "content": "> ${1:Text} \n> ${2:More text}",
+          "name": "Multiple line blockquote",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "blocquot"
+        },
+        {
+          "content": "> ${1:Text} \n>> ${2:Nested quote} \n",
+          "name": "Nested blockquote",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "blocquot"
+        }
+      ]
+    },
+    {
+      "name": "Code",
+      "children": [
+        {
+          "content": "`${1:Code}`",
+          "name": "Code (In-line)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "cod"
+        },
+        {
+          "content": "```\n${1:Code}\n```",
+          "name": "Code (Fenced Block)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "cod"
+        }
+      ]
+    },
+    {
+      "name": "Formatting",
+      "children": [
+        {
+          "content": "**${1:Bold}**",
+          "name": "Bold",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "bol",
+          "shortcut": "cmd-b"
+        },
+        {
+          "content": "*${1:Italic}*",
+          "name": "Italic",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "itali",
+          "shortcut": "cmd-i"
+        },
+        {
+          "content": "***${1:BoldItalic}***",
+          "name": "Bold and Italic",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger" : "bol"
+        },
+        {
+          "content": "~~${1:text}~~",
+          "name": "Strikethrough",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "stri"
+        },
+        {
+          "content": "\n***\n\n",
+          "name": "Horizontal Rule",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "horiz"
+        }
+      ]
+    },
+    {
+      "name": "Headers",
+      "children": [
+        {
+          "content": "# ${1:Title}",
+          "name": "Header 1",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "heade"
+        },
+        {
+          "content": "## ${1:Title}",
+          "name": "Header 2",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "heade"
+        },
+        {
+          "content": "### ${1:Title}",
+          "name": "Header 3",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "heade"
+        },
+        {
+          "content": "#### ${1:Title}",
+          "name": "Header 4",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "heade"
+        },
+        {
+          "content": "##### ${1:Title}",
+          "name": "Header 5",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "heade"
+        },
+        {
+          "content": "###### ${:1Title}",
+          "name": "Header 6",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "heade"
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "children": [
+        {
+          "content": "![${1:Image}](${2:https://example.com/img.png}) ${4:Continue typing...}",
+          "name": "Image",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "imag"
+        },
+        {
+          "content": "![${1:Image}](${2:https://example.com/img.png} \"${3:Alt Text}\") ${4:Continue typing...}",
+          "name": "Image with Alt text",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "imag"
+        }
+      ]
+    },
+    {
+      "name": "Links",
+      "children": [
+        {
+          "content": "[${1:Link}](${2:https://seanosullivan.co.uk}) ${4:Continue typing...}",
+          "name": "URL",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "ur"
+        },
+        {
+          "content": "[${1:Link}](${2:https://seanosullivan.co.uk} \"${3:Tooltip}\") ${4:Continue typing...}",
+          "name": "URL with tooltip",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "ur"
+        },
+        {
+          "content": "<${1:URL or Email Address}>",
+          "name": "URL or Email (Unformatted)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "emai"
+        },
+        {
+          "content": "[${1:Text}][${2:Number}]",
+          "name": "Reference Link (Body)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "refer"
+        },
+        {
+          "content": "[${1:Number}]: ${2:Text}",
+          "name": "Reference Link (Footnote)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "refer"
+        }
+      ]
+    },
+    {
+      "name": "Lists and Task Lists",
+      "children": [
+        {
+          "content": "1. $0\n2. \n3. ",
+          "name": "Ordered List",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "orde lis"
+        },
+        {
+          "content": "* $0\n* \n* ",
+          "name": "Unordered List",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "unorde lis"
+        },
+        {
+          "content": "- [ ] $0\n- [ ] \n- [ ] ",
+          "name": "Task List (Empty)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "tas"
+        },
+        {
+          "content": "- [X] $0\n- [ ] \n- [ ] ",
+          "name": "Task List (First Item Done)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "tas"
+        }
+      ]
+    },
+    {
+      "name": "Tables",
+      "children": [
+        {
+          "content" : "| ${0:Text} | ${1:Text} |\n|----------|----------|",
+          "name" : "Table (No Header, 2 col)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "tabl"
+        },
+        {
+          "content" : "| ${0:Header 1} | ${1:Header 2} |\n|-----------|-----------|\n| ${2:Text}     | ${3:Text}     |",
+          "name" : "Table (Headers, 2 col)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "tabl"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "identifier": "uk.co.seanosullivan.markdownclips",
+    "name": "Markdown Clips",
+    "organization": "Sean O'Sullivan",
+    "description": "Basic and Extended Markdown Syntax Clips for Nova.",
+    "version": "1.0",
+    "categories": ["clips"],
+    "keywords": ["markdown", "nova", "clips", "code-editor", "markup"],
+    "repository": "https://github.com/seanosullivanuk/nova-markdownclips",
+    "homepage": "https://seanosullivan.co.uk/projects/nova-markdownclips",
+    "bugs": "https://github.com/seanosullivanuk/nova-markdownclips/issues"
+}
