@@ -8,21 +8,21 @@
           "name": "Single line blockquote",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "blocquot"
+          "trigger": "blocqu"
         },
         {
           "content": "> ${1:Text} \n> ${2:More text}",
           "name": "Multiple line blockquote",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "blocquot"
+          "trigger": "blocqu"
         },
         {
           "content": "> ${1:Text} \n>> ${2:Nested quote} \n",
           "name": "Nested blockquote",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "blocquot"
+          "trigger": "blocqu"
         }
       ]
     },

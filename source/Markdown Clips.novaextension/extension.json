@@ -3,10 +3,25 @@
     "name": "Markdown Clips",
     "organization": "Sean O'Sullivan",
     "description": "Basic and Extended Markdown Syntax Clips for Nova.",
-    "version": "1.0",
-    "categories": ["clips"],
-    "keywords": ["markdown", "nova", "clips", "code-editor", "markup"],
+    "version": "1.1",
+    "categories": ["clips", "commands"],
+    "main": "main.js",
+    "keywords": ["markdown", "nova", "clips", "code-editor", "markup", "commands"],
     "repository": "https://github.com/seanosullivanuk/nova-markdownclips",
     "homepage": "https://seanosullivan.co.uk/projects/nova-markdownclips",
-    "bugs": "https://github.com/seanosullivanuk/nova-markdownclips/issues"
+    "bugs": "https://github.com/seanosullivanuk/nova-markdownclips/issues",
+    "commands": {
+        "editor": [
+            {
+                "title": "Turn selection Markdown Bold",
+                "command": "turnselectionmarkdown.bold",
+                "when": "editorHasSelection"
+            },
+            {
+                "title": "Turn selection Markdown Italic",
+                "command": "turnselectionmarkdown.italic",
+                "when": "editorHasSelection"
+            }
+        ]
+    }
 }
