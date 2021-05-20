@@ -49,7 +49,7 @@
       "name": "Formatting",
       "children": [
         {
-          "content": "**${1:Bold}**",
+          "content" : "**$0$SELECTED_TEXT**",
           "name": "Bold",
           "scope": "editor",
           "syntax": "markdown",
@@ -57,7 +57,7 @@
           "shortcut": "cmd-b"
         },
         {
-          "content": "*${1:Italic}*",
+          "content" : "*$0$SELECTED_TEXT*",
           "name": "Italic",
           "scope": "editor",
           "syntax": "markdown",
@@ -131,6 +131,12 @@
           "scope": "editor",
           "syntax": "markdown",
           "trigger": "heade"
+        },
+        {
+          "content" : "{#${1:CustomID}}",
+          "name": "Header ID",
+          "scope": "editor",
+          "syntax": "markdown"
         }
       ]
     },
