@@ -8,21 +8,21 @@
           "name": "Single line blockquote",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "blocqu"
+          "trigger": ">"
         },
         {
           "content": "> ${1:Text} \n> ${2:More text}",
           "name": "Multiple line blockquote",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "blocqu"
+          "trigger": ">"
         },
         {
           "content": "> ${1:Text} \n>> ${2:Nested quote} \n",
           "name": "Nested blockquote",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "blocqu"
+          "trigger": ">"
         }
       ]
     },
@@ -34,14 +34,14 @@
           "name": "Code (In-line)",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "cod"
+          "trigger": "code"
         },
         {
           "content": "```\n${1:Code}\n```",
           "name": "Code (Fenced Block)",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "cod"
+          "trigger": "code"
         }
       ]
     },
@@ -53,7 +53,7 @@
           "name": "Bold",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "bol",
+          "trigger": "-",
           "shortcut": "cmd-b"
         },
         {
@@ -61,7 +61,7 @@
           "name": "Italic",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "itali",
+          "trigger": "-",
           "shortcut": "cmd-i"
         },
         {
@@ -69,21 +69,21 @@
           "name": "Bold and Italic",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger" : "bol"
+          "trigger" : "-"
         },
         {
           "content": "~~${1:text}~~",
           "name": "Strikethrough",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "stri"
+          "trigger": "-"
         },
         {
           "content": "\n***\n\n",
           "name": "Horizontal Rule",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "horiz"
+          "trigger": "-"
         }
       ]
     },
@@ -95,48 +95,48 @@
           "name": "Header 1",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "heade"
+          "trigger": "-"
         },
         {
           "content": "## ${1:Title}",
           "name": "Header 2",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "heade"
+          "trigger": "-"
         },
         {
           "content": "### ${1:Title}",
           "name": "Header 3",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "heade"
+          "trigger": "-"
         },
         {
           "content": "#### ${1:Title}",
           "name": "Header 4",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "heade"
+          "trigger": "-"
         },
         {
           "content": "##### ${1:Title}",
           "name": "Header 5",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "heade"
+          "trigger": "-"
         },
         {
           "content": "###### ${:1Title}",
           "name": "Header 6",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "heade"
+          "trigger": "-"
         },
         {
           "content" : "{#${1:CustomID}}",
           "name": "Header ID",
           "scope": "editor",
-          "syntax": "markdown"
+          "syntax": "-"
         }
       ]
     },
@@ -148,14 +148,14 @@
           "name": "Image",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "imag"
+          "trigger": "image"
         },
         {
           "content": "![${1:Image}](${2:https://example.com/img.png} \"${3:Alt Text}\") ${4:Continue typing...}",
           "name": "Image with Alt text",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "imag"
+          "trigger": "image"
         }
       ]
     },
@@ -167,35 +167,35 @@
           "name": "URL",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "ur"
+          "trigger": "url"
         },
         {
           "content": "[${1:Link}](${2:https://seanosullivan.co.uk} \"${3:Tooltip}\") ${4:Continue typing...}",
           "name": "URL with tooltip",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "ur"
+          "trigger": "url"
         },
         {
           "content": "<${1:URL or Email Address}>",
           "name": "URL or Email (Unformatted)",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "emai"
+          "trigger": "ur"
         },
         {
           "content": "[${1:Text}][${2:Number}]",
           "name": "Reference Link (Body)",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "refer"
+          "trigger": "ref"
         },
         {
           "content": "[${1:Number}]: ${2:Text}",
           "name": "Reference Link (Footnote)",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "refer"
+          "trigger": "ref"
         }
       ]
     },
@@ -207,28 +207,28 @@
           "name": "Ordered List",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "orde lis"
+          "trigger": "list"
         },
         {
           "content": "* $0\n* \n* ",
           "name": "Unordered List",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "unorde lis"
+          "trigger": "list"
         },
         {
           "content": "- [ ] $0\n- [ ] \n- [ ] ",
           "name": "Task List (Empty)",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "tas"
+          "trigger": "list"
         },
         {
           "content": "- [X] $0\n- [ ] \n- [ ] ",
           "name": "Task List (First Item Done)",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "tas"
+          "trigger": "list"
         }
       ]
     },
@@ -240,14 +240,14 @@
           "name" : "Table (No Header, 2 col)",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "tabl"
+          "trigger": "|"
         },
         {
           "content" : "| ${0:Header 1} | ${1:Header 2} |\n|-----------|-----------|\n| ${2:Text}     | ${3:Text}     |",
           "name" : "Table (Headers, 2 col)",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "tabl"
+          "trigger": "|"
         }
       ]
     }

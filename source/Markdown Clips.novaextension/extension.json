@@ -3,10 +3,11 @@
     "name": "Markdown Clips",
     "organization": "Sean O'Sullivan",
     "description": "Basic and Extended Markdown Syntax Clips for Nova.",
-    "version": "1.2",
+    "version": "1.3",
     "categories": ["clips"],
     "keywords": ["markdown", "nova", "clips", "code-editor", "markup"],
     "repository": "https://github.com/seanosullivanuk/nova-markdownclips",
     "homepage": "https://seanosullivan.co.uk/projects/nova-markdownclips",
+    "funding": "https://www.buymeacoffee.com/seanosullivanuk",
     "bugs": "https://github.com/seanosullivanuk/nova-markdownclips/issues"
 }

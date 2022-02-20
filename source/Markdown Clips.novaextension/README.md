@@ -1,6 +1,6 @@
 # Markdown Clips for Nova
 
-<img src="https://img.shields.io/badge/Markdown%20Clips-1.2-purple.svg" />
+<img src="https://img.shields.io/badge/Markdown%20Clips-1.3-purple.svg" />
 
 **Markdown Clips** is a collection of Basic and Extended Markdown syntax snippets, for use in Panic Inc's [Nova](https://nova.app).
 
@@ -17,7 +17,7 @@ Alternatively you can download the extension from the GitHub repository, double 
 ## Usage
 ### Autocomplete and keyboard shortcuts
 
-**Markdown Clips** uses *triggers* to assist with autocomplete. Unlike some other markup languages, the triggers are only part of the words so they don't interrupt your writing. 
+**Markdown Clips** uses *triggers* to assist with autocomplete.
 
 ![Autocomplete for Nova](https://raw.githubusercontent.com/seanosullivanuk/nova-markdownclips/main/screenshot-autocomplete.png "Autocomplete example for Markdown Clips in Nova")
 
@@ -26,3 +26,8 @@ There is *keyboard shortcut support* for some of the formatting options. (e.g. C
 ### Sidebar
 
 You can also open the *Clips* sidebar to visually browse the library. Nova will let you double click, or click and drag into the editor.
+
+### Support the Project
+
+If you find Markdown Clips useful and would like to support the project, I'd be grateful if you'd [buy me a coffee](https://www.buymeacoffee.com/seanosullivanuk).
+
