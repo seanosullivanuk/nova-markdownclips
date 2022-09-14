@@ -84,6 +84,13 @@
           "scope": "editor",
           "syntax": "markdown",
           "trigger": "-"
+        },
+        {
+          "content" : "<details><summary>${1:Summary text}<\/summary>\n${2:Enter text here}\n<\/details>\n",
+          "name" : "Collapsible Section",
+          "scope" : "editor",
+          "syntax" : "markdown",
+          "trigger": "-"
         }
       ]
     },
@@ -163,18 +170,25 @@
       "name": "Links",
       "children": [
         {
+          "content" : "[![${1:Image Alt Text}](${2:https:\/\/example.com\/img.png})](${3:https:\/\/example.com\/page.html})",
+          "name" : "Image with URL",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "ur"
+        },
+        {
           "content": "[${1:Link}](${2:https://seanosullivan.co.uk}) ${4:Continue typing...}",
           "name": "URL",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "url"
+          "trigger": "ur"
         },
         {
           "content": "[${1:Link}](${2:https://seanosullivan.co.uk} \"${3:Tooltip}\") ${4:Continue typing...}",
           "name": "URL with tooltip",
           "scope": "editor",
           "syntax": "markdown",
-          "trigger": "url"
+          "trigger": "ur"
         },
         {
           "content": "<${1:URL or Email Address}>",
@@ -248,6 +262,23 @@
           "scope": "editor",
           "syntax": "markdown",
           "trigger": "|"
+        }
+      ]
+    },
+    {
+      "name": "Video embed",
+      "children": [
+        {
+          "content" : "\n<figure class=\"video_container\">\n  <iframe src=\"${1:Video URL}\" frameborder=\"0\" allowfullscreen=\"true\"> <\/iframe>\n<\/figure>\n",
+          "name" : "Web videos (YouTube, Vimeo etc).",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "\n<figure class=\"video_container\">\n  <video controls=\"true\" allowfullscreen=\"true\" poster=\"${1:path\/to\/poster_image.png}\">\n\t<source src=\"${2:path\/to\/video.mp4}\" type=\"video\/mp4\">\n\t<source src=\"${3:path\/to\/video.ogg}\" type=\"video\/ogg\">\n\t<source src=\"${4:path\/to\/video.webm}\" type=\"video\/webm\">\n  <\/video>\n<\/figure>\n",
+          "name" : "Local videos (HTML5)",
+          "scope" : "editor",
+          "syntax" : "markdown"
         }
       ]
     }
