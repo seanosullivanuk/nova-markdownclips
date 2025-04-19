@@ -60,6 +60,25 @@
       ]
     },
     {
+      "name": "Collapsible Sections",
+      "children": [
+        {
+          "content" : "<details>\n  <summary>${1:Summary text}<\/summary>\n  \n  ${2:Enter text}\n<\/details>\n",
+          "name" : "Collapsible Section (Closed)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "_"
+        },
+        {
+          "content" : "<details open>\n  <summary>${1:Summary text}<\/summary>\n  \n  ${2:Enter text}\n<\/details>\n",
+          "name" : "Collapsible Section (Open)",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "_"
+        }
+      ]
+    },
+    {
       "name": "Formatting",
       "children": [
         {
@@ -84,6 +103,13 @@
           "trigger" : "_"
         },
         {
+          "content" : "<ins>$0$SELECTED_TEXT</ins>",
+          "name": "Underline",
+          "scope": "editor",
+          "syntax": "markdown",
+          "shortcut": "cmd-u"
+        },
+        {
           "content": "~~${1:text}~~",
           "name": "Strikethrough",
           "scope": "editor",
@@ -98,11 +124,58 @@
           "trigger": "_"
         },
         {
-          "content" : "<details><summary>${1:Summary text}<\/summary>\n${2:Enter text here}\n<\/details>\n",
-          "name" : "Collapsible Section",
+          "content" : "<sup>${1:Text}<\/sup>",
+          "name" : "Superscript",
           "scope" : "editor",
           "syntax" : "markdown",
           "trigger": "_"
+        },
+        {
+          "content" : "<sub>${1:Text}<\/sub>",
+          "name" : "Subscript",
+          "scope" : "editor",
+          "syntax" : "markdown",
+          "trigger": "_"
+        }
+      ]
+    },
+    {
+      "name" : "GitHub Alerts",
+      "children" : [
+        {
+          "content" : "> [!CAUTION]\n> ${1:Write your caution here}",
+          "name" : "GitHub Alert - Caution",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "±"
+        },
+        {
+          "content" : "> [!IMPORTANT]\n> ${1:Write your important note here}",
+          "name" : "GitHub Alert - Important",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "±"
+        },
+        {
+          "content" : "> [!NOTE]\n> ${1:Write your note here}",
+          "name" : "GitHub Alert - Note",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "±"
+        },
+        {
+          "content" : "> [!TIP]\n> ${1:Write your tip here}",
+          "name" : "GitHub Alert - Tip",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "±"
+        },
+        {
+          "content" : "> [!WARNING]\n> ${1:Write your warning here}",
+          "name" : "GitHub Alert - Warning",
+          "scope": "editor",
+          "syntax": "markdown",
+          "trigger": "±"
         }
       ]
     },
