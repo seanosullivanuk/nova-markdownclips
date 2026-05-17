@@ -1,6 +1,94 @@
 {
   "clips": [
     {
+      "name": "Badges - Labels",
+      "children" : [
+        {
+          "content" : "![${1:Name}](https:\/\/img.shields.io\/badge\/${2:left_side_text}-${3:right_side_text}-${4:colour [blue\/orange\/etc]}?style=flat) ${5:Continue typing...}",
+          "name" : "Badge - Label and message",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "[![${1:Name}](https:\/\/img.shields.io\/badge\/${2:left_side_text}-${3:right_side_text}-${4:colour [blue\/orange\/etc]}?style=flat)](${5:URL}) ${6:Continue typing...}",
+          "name" : "Badge - Label and message (with URL)",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "![${1:Name}](https:\/\/img.shields.io\/badge\/${2:message_text}-${3:colour [blue\/orange\/etc]}?style=flat) ${4:Continue typing...}",
+          "name" : "Badge - Message only",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "[![${1:Name}](https:\/\/img.shields.io\/badge\/${2:message_text}-${3:colour [blue\/orange\/etc]}?style=flat)](${4:URL}) ${5:Continue typing...}",
+          "name" : "Badge - Message only (with URL)",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        }
+      ]
+    },
+    {
+      "name": "Badges - Social",
+      "children" : [
+        {
+          "content" : "![${1:Name}](https:\/\/img.shields.io\/badge\/${2:support_me_text}-darkred?style=${3:style [flat\/for-the-badge\/social]}&logo=${4:icon [buymeacoffee\/kofi\/patreon]}&logoColor=black&labelColor=white) ${5:Continue typing...}",
+          "name" : "Badge - Social - Crowdfunding",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "[![${1:Name}](https:\/\/img.shields.io\/badge\/${2:support_me_text}-darkred?style=${3:style [flat\/for-the-badge\/social]}&logo=${4:icon [buymeacoffee\/kofi\/patreon]}&logoColor=black&labelColor=white)](${5:URL}) ${6:Continue typing...}",
+          "name" : "Badge - Social - Crowdfunding (with URL)",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "![Bluesky followers](https:\/\/img.shields.io\/bluesky\/followers\/${1:BlueskyHandle}?style=${2:style [flat\/for-the-badge\/social]}&label=BlueSky%20Followers) ${3:Continue typing...}",
+          "name" : "Badge - Social - Followers - Bluesky",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "![GitHub followers](https:\/\/img.shields.io\/github\/followers\/${1:username}?style=${2:style [flat\/for-the-badge\/social]}&label=GitHub%20followers) ${3:Continue typing...}",
+          "name" : "Badge - Social - Followers - GitHub",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "![Subreddit subscribers](https:\/\/img.shields.io\/reddit\/subreddit-subscribers\/${1:subreddit}) ${2:Continue typing...}\n",
+          "name" : "Badge - Social - Followers - Reddit Subreddit",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "![X followers](https:\/\/img.shields.io\/twitter\/follow\/${1:username}) ${2:Continue typing...}",
+          "name" : "Badge - Social - Followers - X (Twitter)",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "![YouTube subscribers](https:\/\/img.shields.io\/youtube\/channel\/subscribers\/${1:channelID}?style=${2:style [flat\/for-the-badge\/social]}) ${3:Continue typing...}",
+          "name" : "Badge - Social - Followers - YouTube subscribers",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "![Reddit User Karma](https:\/\/img.shields.io\/reddit\/user-karma\/${1:variant [link\/comment\/combined]}\/${2:username}) ${3:Continue typing...}",
+          "name" : "Badge - Social - Reddit User Karma",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        },
+        {
+          "content" : "![YouTube Video Likes](https:\/\/img.shields.io\/youtube\/likes\/${1:videoID}?style=${2:style [flat\/for-the-badge\/social]}) ${3:Continue typing...}",
+          "name" : "Badge - Social - YouTube Video Likes",
+          "scope" : "editor",
+          "syntax" : "markdown"
+        }
+      ]
+    },
+    {
       "name": "Blockquotes",
       "children": [
         {

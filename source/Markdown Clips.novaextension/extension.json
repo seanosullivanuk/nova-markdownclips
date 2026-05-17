@@ -3,7 +3,7 @@
     "name": "Markdown Clips",
     "organization": "Sean O'Sullivan",
     "description": "Basic, extended and GitHub Flavoured Markdown syntax Clips for Nova.",
-    "version": "1.6",
+    "version": "1.7",
     "categories": ["clips"],
     "keywords": ["markdown", "nova", "clips", "code-editor", "markup"],
     "repository": "https://github.com/seanosullivanuk/nova-markdownclips",

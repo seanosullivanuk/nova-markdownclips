@@ -4,9 +4,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://seanosullivan.co.uk/projects/nova-markdownclips"><img src="https://img.shields.io/badge/Version-1.6-674396?style=for-the-badge&labelColor=2e3144"></a>
+	<a href="https://seanosullivan.co.uk/projects/nova-markdownclips"><img src="https://img.shields.io/badge/Version-1.7-674396?style=for-the-badge&labelColor=2e3144"></a>
 	<a href="https://www.buymeacoffee.com/seanosullivanuk"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-support-efef51?style=for-the-badge&labelColor=2e3144"></a>
-	<img src="https://img.shields.io/badge/Installs-4%2C200%2B-6ebf56?style=for-the-badge&labelColor=2e3144">
+	<img src="https://img.shields.io/badge/Installs-5%2C100%2B-6ebf56?style=for-the-badge&labelColor=2e3144">
 </p>
 
 ---

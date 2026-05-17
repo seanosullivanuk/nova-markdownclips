@@ -1,3 +1,25 @@
+## Version 1.7
+### 🎁 What's New?
+#### Shields.io Badges (Labels and Social)
+Markdown Clips brings some of the Shields.io magic to Nova, with 13 ready to use badges for labels and social networking. 
+
+Select which badge you'd like from the Clips sidebar or see them automatically suggested as you type. Each of the badges have placeholders for adding your own text, URLs, and for customising colours and badge styles. 
+
+**Examples:**
+
+![Label example](https://img.shields.io/badge/How_cool-is_this-green?style=flat)
+
+![Crowdfunding example](https://img.shields.io/badge/Crowdfund_me-yellow?style=flat&logo=buymeacoffee&logoColor=black&labelColor=white) 
+
+[![YouTube Video Likes example](https://img.shields.io/youtube/likes/dQw4w9WgXcQ?style=for-the-badge)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+You can review the [Shields.io](https://shields.io/badges) documentation to learn more, and to support their project. 
+
+#### An icon refresh
+The icon for Markdown Clips has been updated with a Liquid Glass vibe.
+
+
+
 ## Version 1.6
 ### 🎁 What's New?
 #### GitHub Alerts (GitHub Flavoured Markdown)
